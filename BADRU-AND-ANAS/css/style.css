@@ -1,11 +1,24 @@
-header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-@media only screen and (max-width: 600px){
-    body { background-color: hotpink;
+#header{
+    display: flex;
+    justify-content: space-between;
 
+}
+#nav-bar{
+   display: flex;
+   max-width: 300px;
+   justify-content: space-around;
+   flex: 1;
+   margin-right: 20px;
+    
+   }
+
+
+
+
+@media only screen and (max-width: 768px) {
+    #nav-bar{
+        
+        flex-direction: column;
     }
 }
+
